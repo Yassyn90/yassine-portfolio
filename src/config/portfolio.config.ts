@@ -1,7 +1,7 @@
 export const portfolioConfig = {
   // Basic Information
-  name: "Md Taqui Imam",
-  title: "Software Engineer",
+  name: "Yassyn IDAR",
+  title: "Ingénieur électrique",
   description: "I am a Passionate Software Developer",
   location: "Ramgarh cantt, Jharkhand, India",
 
