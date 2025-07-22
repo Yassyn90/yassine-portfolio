@@ -1,20 +1,19 @@
 export const portfolioConfig = {
   // Basic Information
   name: "Yassyn IDAR",
-  title: "Ingénieur électrique",
-  description: "I am a Passionate Software Developer",
-  location: "Ramgarh cantt, Jharkhand, India",
+  title: "Embedded Systems and Telecommunications Engineer",
+  description: "I'm a passionate embedded systems and telecommunications engineering student.",
+  location: "Ensem, Casablanca",
 
   // Contact Information
-  email: "taquiimam@example.com", // Replace with actual email if available
+  email: "yassyn.contact@gmail.com", // Replace with actual email if available
 
   // Social Media Links
   socialLinks: {
-    facebook: "https://www.facebook.com/shahina.khatun.1044",
     twitter: "https://twitter.com/Taquiimam14",
     linkedin: "https://www.linkedin.com/in/taqui-imam",
     external: "https://tinyurl.com/MdTaquiImam",
-    github: "https://github.com/taqui-786", // Assuming this is the GitHub link
+    github: "https://github.com/Yassyn90", // Assuming this is the GitHub link
   },
 
   // SEO Information
@@ -54,8 +53,8 @@ export const portfolioConfig = {
     ],
     authors: [
       {
-        name: "Taqui Imam",
-        url: "https://github.com/taqui-786",
+        name: "IDAR Yassyn",
+        url: "https://github.com/Yassyn90",
       },
     ],
   },
@@ -182,6 +181,14 @@ export const portfolioConfig = {
 
   // Education Information
   education: [
+    {
+      degree: "Bachelor of Computer Application",
+      institution: "Ranchi University Jharkhand",
+      location: "Doranda College Ranchi",
+      period: "July 2023 - 2026",
+      description:
+        "I am currently Studying Bachelor of Computer Application form Doranda College Ranchi a Goverment College of Ranchi. The program has provided me with a well-rounded education, covering both theoretical foundations and practical applications of computer science.",
+    },
     {
       degree: "Bachelor of Computer Application",
       institution: "Ranchi University Jharkhand",
