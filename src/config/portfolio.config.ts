@@ -1,6 +1,6 @@
 export const portfolioConfig = {
   // Basic Information
-  name: "YASSYN IDAR",
+  name: "AMINE IDAR",
   title: "Embedded Systems and Telecommunications Engineer",
   description: "I'm a passionate embedded systems and telecommunications engineering student.",
   location: "Ensem, Casablanca",
