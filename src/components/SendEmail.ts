@@ -4,26 +4,44 @@ import {redirect} from  'next/navigation'
 
 // EMAIL SENDGING FUCTIONALITY 
 // ADD RESEND_API_KEY IN YOUR .ENV FILE 
-const resend = new Resend(process.env.RESEND_API_KEY);
+
 export const SendEmail = async (formdata: FormData) => {
   const message = formdata.get("message");
   const name = formdata.get("name");
-  const SenderEmail = formdata.get("SenderEmail");
-  if (!message) {
-    return {
-      error: "Invalid message",
-    };
+  const senderEmail = formdata.get("SenderEmail");
+  console.log("BREVO KEY:", process.env.BREVO_API_KEY);
+  if (!message || !senderEmail || !name) {
+    return { error: "Invalid input data" };
   }
-  await resend.emails.send({
-    from: "Contact Form <onboarding@resend.dev>",
-    to: `mdtaqui.jhar@gmail.com`,
-    subject: `${name} From Contact Form.`,
-    reply_to: `${SenderEmail}`,
-    text: `sender email: ${SenderEmail} 
-     ${message}`,
+
+  const response = await fetch("https://api.brevo.com/v3/smtp/email", {
+    method: "POST",
+    headers: {
+      "api-key": process.env.BREVO_API_KEY!,
+      "Content-Type": "application/json",
+      "Accept": "application/json",
+    },
+    body: JSON.stringify({
+      sender: {
+        name: name,
+        email: senderEmail,
+      },
+      to: [
+        {
+          email: "yassyn.contact@gmail.com",
+          name: "Recipient Name",
+        },
+      ],
+      subject: `${name} From Contact Form.`,
+      htmlContent: `<p><strong>Sender:</strong> ${senderEmail}</p><p>${message}</p>`,
+    }),
   });
 
-return redirect('/')
- 
-  
+  if (!response.ok) {
+    const err = await response.json();
+    console.error("Brevo API Error:", err);
+    return { error: "Failed to send email" };
+  }
+
+  return redirect("/");
 };
