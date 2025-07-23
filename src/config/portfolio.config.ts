@@ -1,7 +1,7 @@
 export const portfolioConfig = {
   // Basic Information
   name: "YASSYN IDAR",
-  title: "Embedded Systems and Telecommunications Engineer",
+  title: "Embedded Systems and Telecommunications Engineering Student",
   description: "I'm a passionate embedded systems and telecommunications engineering student.",
   location: "Ensem, Casablanca",
 
@@ -10,46 +10,33 @@ export const portfolioConfig = {
 
   // Social Media Links
   socialLinks: {
-    twitter: "https://twitter.com/Taquiimam14",
-    linkedin: "https://www.linkedin.com/in/taqui-imam",
-    external: "https://tinyurl.com/MdTaquiImam",
+    linkedin: "https://www.linkedin.com/in/yassyn-idar-347034266/",
     github: "https://github.com/Yassyn90", // Assuming this is the GitHub link
   },
 
   // SEO Information
   seo: {
     ogImage: "https://mdtaquiimam.vercel.app/og-image.png",
-    url: "https://mdtaquiimam.vercel.app",
-    twitterHandle: "@Taquiimam14",
+    url: "https://yassyn-idar-portfolio.pages.dev/",
     keywords: [
-      "md",
-      "taqui",
-      "imam",
-      "Md",
-      "MD",
-      "TAQUI",
-      "Taqui",
-      "Imam",
-      "Imam",
-      "Md Taqui Imam",
-      "md taqui imam",
-      "mdtaqui",
-      "mdtaquiimam",
-      "taqui imam",
-      "Taqui Imam",
-      "Taquiimam",
-      "portfolio",
-      "web developer",
-      "web",
-      "web dev",
-      "developer",
-      "PROGRAMMER ",
-      "programmer ",
-      "MD TAQUI IMAM ",
-      "website",
-      "@Taquiimam",
-      "Taquiimam",
-      "taqui developer",
+      "Yassyn",
+      "Elecrical Engineer",
+      "Embedded Systems",
+      "Electronics",
+      "Assembly Programming",
+      "Digital Electronics",
+      "Mattlab/Simulink",
+      "Python Programming",
+      "Cycle V",
+      "Safety Standards",
+      "ISO 26262",
+      "Automotive Technology",
+      "C++ programming",
+      "C programming",
+      "Grafcet programming",
+      "Siemens",
+      "ISIS",
+      "Psim"
     ],
     authors: [
       {
@@ -61,17 +48,17 @@ export const portfolioConfig = {
 
   // About Information
   about: {
-    bio: "I am a Full Stack Web Developer from Ramgarh cantt, Jharkhand, India. I'm passionate about crafting web projects and contributing to open-source communities. I specialize in modern JavaScript frameworks and responsive CSS design, focusing on creating pixel-perfect, user-friendly interfaces. With strong attention to detail and efficient delivery, I build seamless web experiences that combine functionality with elegant design.",
+    bio: "I’m an Electrical, Embedded Systems, and Telecommunications Engineering student at ENSEM Casablanca, with a strong passion for electronics, embedded development, and automotive systems. I enjoy designing real-world projects that combine innovation and practicality, aiming to solve problems and inspire meaningful change.",
     hobbies: [
       "Coding",
       "Playing Games",
-      "Watching Anime",
+      "Fitness",
       "Tech Blog Writing",
       "Creating Cool Projects",
     ],
     personalInfo: {
-      language: "English UK",
-      nationality: "India",
+      language: "Arabic",
+      nationality: "Moroccan",
       gender: "Male",
     },
   },
@@ -81,16 +68,14 @@ export const portfolioConfig = {
     roles: [
       "Freelancer",
       "Blogger",
-      "Gamer",
       "Creator",
-      "Student",
       "Contributer",
     ],
     // Technical Skills
     programmingLanguages: [
       {
-        name: "HTML5",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        name: "C ++",
+        icon: "https://www.flaticon.com/free-icon/c_6132222?term=c&page=1&position=2&origin=search&related_id=6132222",
       },
       {
         name: "CSS3",

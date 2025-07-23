@@ -17,10 +17,9 @@ const skillPage = () => {
         <Heading>My Technical Experience/Skills.</Heading>
         <FramerWrapper y={0} x={200}>
           <p className="font-poppins text-xl w-full text-primary max-sm:text-lg">
-            Currently i am a fresher and i have a solid understand of HTML5,
-            CSS3, JS, TS and React, including responsive design principles. I
-            specialize in building web applications and sites using Javascript,
-            Typescript, React, Nextjs & Node.
+            As an Electrical, Embedded Systems, and Telecommunications Engineering student, 
+            I’ve developed a solid foundation in embedded programming, digital systems, microcontroller programming
+            real-time systems, sensors and automotive systems.
           </p>
         </FramerWrapper>
         <FramerWrapper y={100} delay={0.3} className="block w-full">

@@ -17,7 +17,7 @@ const page = () => {
       </Badge>
       <div className="flex flex-col gap-5">
         <Heading>
-          {portfolioConfig.title} And Web <br /> Developer, Based In{" "}
+          {portfolioConfig.title} Based In{" "}
           {portfolioConfig.about.personalInfo.nationality}.
         </Heading>
 
