@@ -38,13 +38,6 @@ export const metadata: Metadata = {
     images: [`${portfolioConfig.seo.url}/og-image.png`],
     siteName: portfolioConfig.name,
   },
-  twitter: {
-    card: "summary_large_image",
-    title: portfolioConfig.name,
-    description: portfolioConfig.description,
-    images: [`${portfolioConfig.seo.url}/og-image.png`],
-    creator: portfolioConfig.seo.twitterHandle,
-  },
   icons: {
     icon: "/favicon.ico",
   },
@@ -60,7 +53,7 @@ export default function RootLayout({
       <body className={`${poppins.variable} ${rubik.variable}`}>
         <main
           className={cn(
-            "flex  relative  break-words h-dvh min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 bg-transparent max-sm:pt-20 bg-[radial-gradient(#2f7df4_1px,transparent_1px)] [background-size:16px_16px]",
+            "flex  relative  overflow-hidden break-words h-dvh min-h-screen items-center justify-between pt-14 pb-0 px-40 max-md:p-4 bg-transparent max-sm:pt-20 bg-[radial-gradient(rgba(47,125,244,0.2)_1px,transparent_1px)] [background-size:16px_16px]",
             { "bg-white": "#E6E7EB" }
           )}
         >

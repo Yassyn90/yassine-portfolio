@@ -1,16 +1,16 @@
 export const portfolioConfig = {
   // Basic Information
   name: "YASSYN IDAR",
-  title: "Embedded Systems and Telecommunications Engineering Student",
+  title: "Futur Embedded Systems and Telecommunications Engineer, Building the Future of IoT",
   description: "I'm a passionate embedded systems and telecommunications engineering student.",
   location: "Ensem, Casablanca",
 
   // Contact Information
-  email: "yassyn.contact@gmail.com", // Replace with actual email if available
+  email: "yassyn.idar.etu@gmail.com", // Replace with actual email if available
 
   // Social Media Links
   socialLinks: {
-    linkedin: "https://www.linkedin.com/in/yassyn-idar-347034266/",
+    linkedin: "https://www.linkedin.com/in/yassyn-idar/",
     github: "https://github.com/Yassyn90", // Assuming this is the GitHub link
   },
 
@@ -66,10 +66,10 @@ export const portfolioConfig = {
   // Skills and Roles
   skills: {
     roles: [
-      "Freelancer",
-      "Blogger",
-      "Creator",
-      "Contributer",
+      "AI Algorithms",
+      "Connectivity",
+      "Edge Computing",
+      "Robotics",
     ],
     // Technical Skills
     programmingLanguages: [
