@@ -18,7 +18,7 @@ const skillPage = () => {
         <FramerWrapper y={0} x={200}>
         <p className="font-poppins text-1xl w-full text-primary max-sm:text-lg">
           {/* First Sentence: The Introduction */}
-          I'm an Electrical, Embedded Systems, and Telecommunications Engineering student at ENSEM Casablanca, Morocco.
+          I&apos;m an Electrical, Embedded Systems, and Telecommunications Engineering student at ENSEM Casablanca, Morocco.
           
           {/* Line Break to move "My expertise..." to the next line */}
           <br />
