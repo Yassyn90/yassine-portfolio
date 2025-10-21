@@ -1,8 +1,8 @@
 export const portfolioConfig = {
   // Basic Information
-  name: "YASSYN IDAR",
+  name: "IDAR YASSYN",
   title: "Futur Embedded Systems and Telecommunications Engineer, Building the Future of IoT",
-  description: "I'm a passionate embedded systems and telecommunications engineering student.",
+  description: "Passionate embedded systems and telecommunications engineering student.",
   location: "Ensem, Casablanca",
 
   // Contact Information
@@ -48,18 +48,19 @@ export const portfolioConfig = {
 
   // About Information
   about: {
-    bio: "I’m an Electrical, Embedded Systems, and Telecommunications Engineering student at ENSEM Casablanca, with a strong passion for electronics, embedded development, and automotive systems. I enjoy designing real-world projects that combine innovation and practicality, aiming to solve problems and inspire meaningful change.",
+    bio: "I'm an Electrical, Embedded Systems, and Telecommunications Engineering student at ENSEM Casablanca, Morocco, with a strong passion for electronics, embedded development, and automotive systems. I enjoy designing real-world projects that combine innovation and practicality, aiming to solve problems and inspire meaningful change.",
     hobbies: [
       "Coding",
       "Playing Games",
       "Fitness",
       "Tech Blog Writing",
+      "Reading Tech Papers",
       "Creating Cool Projects",
     ],
     personalInfo: {
-      language: "Arabic",
-      nationality: "Moroccan",
-      gender: "Male",
+      language: ["Arabic (Native)", "French (Fluent)", "English (Upper Intermediate)"],
+      nationality: ["Moroccan"], 
+      gender: ["Male"],
     },
   },
 
@@ -75,11 +76,19 @@ export const portfolioConfig = {
     programmingLanguages: [
       {
         name: "C ++",
-        icon: "https://www.flaticon.com/free-icon/c_6132222?term=c&page=1&position=2&origin=search&related_id=6132222",
+        icon: "https://isocpp.org/files/img/cpp_logo.png",
       },
       {
-        name: "CSS3",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        name: "C",
+        icon: "/c_logo.png",
+      },
+      {
+        name: "Rust",
+        icon: "/rust_logo.png",
+      },
+      {
+        name: "Assembly",
+        icon: "/asm_logo.png",
       },
       {
         name: "JavaScript",
@@ -90,46 +99,22 @@ export const portfolioConfig = {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
       },
       {
-        name: "C++",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
-      },
-      {
         name: "Python",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-      },
-      {
-        name: "Java",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
       },
     ],
     frameworks: [
       {
-        name: "React",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        name: "RTOS (Real-Time Operating System)",
+        icon: "/rtos_logo.png",
       },
       {
-        name: "Next.js",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+        name: "Arduino",
+        icon: "/ard_logo.svg",
       },
       {
-        name: "Vue.js",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
-      },
-      {
-        name: "Svelte",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
-      },
-      {
-        name: "Tailwind CSS",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
-      },
-      {
-        name: "Bootstrap",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-      },
-      {
-        name: "Material UI",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+        name: "Embedded Linux",
+        icon: "/emb_linux.png",
       },
     ],
     tools: [

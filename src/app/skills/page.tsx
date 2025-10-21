@@ -14,17 +14,31 @@ const skillPage = () => {
         My Skills
       </Badge>
       <div className="flex flex-col gap-3">
-        <Heading>My Technical Experience/Skills.</Heading>
+        <Heading>My Technical Skills</Heading>
         <FramerWrapper y={0} x={200}>
-          <p className="font-poppins text-xl w-full text-primary max-sm:text-lg">
-            As an Electrical, Embedded Systems, and Telecommunications Engineering student, 
-            I’ve developed a solid foundation in embedded programming, digital systems, microcontroller programming
-            real-time systems, sensors and automotive systems.
-          </p>
+        <p className="font-poppins text-1xl w-full text-primary max-sm:text-lg">
+          {/* First Sentence: The Introduction */}
+          I'm an Electrical, Embedded Systems, and Telecommunications Engineering student at ENSEM Casablanca, Morocco.
+          
+          {/* Line Break to move "My expertise..." to the next line */}
+          <br />
+          
+          {/* Second Sentence: The Skills Statement */}
+          My expertise spans 
+          
+          <strong> embedded programming</strong>, 
+          <strong> digital systems</strong>, 
+          <strong> microcontroller programming</strong>, 
+          <strong> real-time systems</strong>, 
+          <strong> sensors</strong>, and 
+          <strong> automotive systems</strong>. 
+          
+          I enjoy designing real-world projects...
+        </p>
         </FramerWrapper>
         <FramerWrapper y={100} delay={0.3} className="block w-full">
           <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
-            Programming Languages
+            Programming & Low-Level
           </h1>
           <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
             <SkillsFooter items={portfolioConfig.skills.programmingLanguages} />
@@ -32,7 +46,7 @@ const skillPage = () => {
         </FramerWrapper>
         <FramerWrapper className="block w-full" y={100} delay={0.32}>
           <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
-            Framework/Libraries
+            Embedded Processors & Architectures
           </h1>
           <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
             <SkillsFooter items={portfolioConfig.skills.frameworks} />
@@ -40,7 +54,15 @@ const skillPage = () => {
         </FramerWrapper>
         <FramerWrapper className="block w-full" y={100} delay={0.34}>
           <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
-            Tools & Technologies
+            Modeling & Control
+          </h1>
+          <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
+            <SkillsFooter items={portfolioConfig.skills.tools} />
+          </div>
+        </FramerWrapper>
+        <FramerWrapper className="block w-full" y={100} delay={0.34}>
+          <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
+            Hardware & Protocols
           </h1>
           <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
             <SkillsFooter items={portfolioConfig.skills.tools} />

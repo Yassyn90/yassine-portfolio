@@ -19,7 +19,7 @@ const SkillsFooter: React.FC<MyComponentProps> = ({ items }) => {
             <img 
               src={item.icon} 
               alt={item.name} 
-              className="w-12 h-12 object-contain"
+              className="w-14 h-14 object-contain"
             />
             <span className="text-sm text-center font-medium text-muted-foreground">
               {item.name}
