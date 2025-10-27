@@ -22,9 +22,9 @@ const ContactForm = () => {
         }}
       >
         <CardHeader>
-          <CardTitle className="icon_underline">Send me a mail.</CardTitle>
+          <CardTitle className="icon_underline">Get in touch!</CardTitle>
           <CardDescription>
-            Once form is submit you will be redirect to home page.
+            I look forward to hearing from you! Thank you.
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -38,7 +38,7 @@ const ContactForm = () => {
             />
           </div>
           <div className="grid w-full max-w-sm items-center gap-1.5 mt-2">
-            <Label htmlFor="email">Email</Label>
+            <Label htmlFor="email">Your Email</Label>
             <Input
               type="email"
               name="SenderEmail"

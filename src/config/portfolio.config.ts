@@ -116,144 +116,188 @@ export const portfolioConfig = {
         name: "Embedded Linux",
         icon: "/emb_linux.png",
       },
+      {
+        name: "PIC Microcontroller Programming",
+        icon: "/pic_mcu.png",
+      },
+      {
+        name: "ARM Cortex-M",
+        icon: "/armcortexm.png",
+      },
+      {
+        name: "Microchip AVR",
+        icon: "/microchipavr.png",
+      },
+      {
+        name: "RISC-V",
+        icon: "/riscv.png",
+      },
+      {
+        name: "Microprocesseurs (MPU) ARM Cortex-A",
+        icon: "/armcortexa.png",
+      },
     ],
     tools: [
       {
-        name: "Git",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-      },
+        name: "GNU & GCC",
+        icon: "/gccgnu.png",
+      },  
       {
-        name: "GitHub",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-      },
+        name: "GCC for ARM Embedded",
+        icon: "/gccarmembd.png",
+      },  
       {
-        name: "VS Code",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
-      },
+        name: "CodeBlocks IDE",
+        icon: "/codeblocks.png",
+      }, 
+      {
+        name: "ISIS Proteous",
+        icon: "/isis.png",
+      }, 
+      {
+        name: "Matlab/Simulink",
+        icon: "/matlab.png",
+      }, 
+      {
+        name: "MPLab IDE",
+        icon: "/mplabide.png",
+      }, 
+      {
+        name: "NodeRED",
+        icon: "/nodered.png",
+      }, 
+      {
+        name: "STM32 Cube IDE",
+        icon: "/cudeide.png",
+      }, 
+      {
+        name: "Git & Github",
+        icon: "/gitgithub.png",
+      }, 
       {
         name: "Docker",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+        icon: "/docker.png",
+      }, 
+      {
+        name: "KiCAD - PCB Design",
+        icon: "/kicad.png",
+      }, 
+      {
+        name: "Vivado",
+        icon: "/vivado.png",
       },
       {
-        name: "Firebase",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+        name: "Fritzing",
+        icon: "/fritzing.png",
       },
       {
-        name: "MongoDB",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+        name: "MQTT Explorer",
+        icon: "/mqtt.png",
       },
+    ],
+    protocols: [
       {
-        name: "PostgreSQL",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+        name: "SPI (Serial Peripheral Interface)",
+        icon: "/spi.png",
+      },  
+      {
+        name: "I2C (Inter-Integrated Circuit)",
+        icon: "/i2c.png",
+      },  
+      {
+        name: "UART/RS-232",
+        icon: "/uart.png",
+      }, 
+      {
+        name: "CAN (Controller Area Network)",
+        icon: "/canbus.png",
+      }, 
+      {
+        name: "Bluetooth/BLE (Low Energy)",
+        icon: "/blue.png",
+      }, 
+      {
+        name: "Zigbee",
+        icon: "/zigbee.png",
+      }, 
+      {
+        name: "LoRaWAN",
+        icon: "/lora.png",
+      }, 
+      {
+        name: "MQTT Protocol",
+        icon: "/mqttpro.png",
+      }, 
+      {
+        name: "Modbus",
+        icon: "/modbus.png",
+      }, 
+      {
+        name: "LIN (Local Interconnect Network)",
+        icon: "/lin.png",
       },
     ],
   },
 
-  // Education Information
+    // config/portfolio.config.js
+
   education: [
-    {
-      degree: "Bachelor of Computer Application",
-      institution: "Ranchi University Jharkhand",
-      location: "Doranda College Ranchi",
-      period: "July 2023 - 2026",
-      description:
-        "I am currently Studying Bachelor of Computer Application form Doranda College Ranchi a Goverment College of Ranchi. The program has provided me with a well-rounded education, covering both theoretical foundations and practical applications of computer science.",
-    },
-    {
-      degree: "Bachelor of Computer Application",
-      institution: "Ranchi University Jharkhand",
-      location: "Doranda College Ranchi",
-      period: "July 2023 - 2026",
-      description:
-        "I am currently Studying Bachelor of Computer Application form Doranda College Ranchi a Goverment College of Ranchi. The program has provided me with a well-rounded education, covering both theoretical foundations and practical applications of computer science.",
-    },
+      {
+        degree: "State Engineering Diploma (Master's Equivalent)",
+        institution: "École Nationale Supérieure d'Électricité et Mécanique (ENSEM), Casablanca",
+        period: "2023 – Present",
+        description: "Specialization : Electrical Engineering, Embedded Systems and Telecom (GESET)",
+        logo: "/ensem.png", // <-- Replace with actual logo URL
+      },
+      {
+        degree: "University Diploma of Technology (DUT)",
+        institution: "École Supérieure de Technologie (EST), Kénitra",
+        period: "2021 – 2023",
+        description: "Specialization : Embedded Electronics for Automotive (EEA)",
+        logo: "estkenitra.jpeg", // <-- Replace with actual logo URL
+      },
+      {
+        degree: "Baccalaureate (High School Diploma)",
+        institution: "Lycée Ibn Sina, Biougra, Agadir",
+        period: "2020 – 2021",
+        description: "Specialization : Physical and Chemical Sciences",
+        logo: "ibnsina.jpeg", // <-- Replace with actual logo URL
+      },
   ],
 
   // Projects Information
   projects: [
     {
-      title: "WePost- A modern, minimalistic social platform.",
+      title: "𝐒𝐦𝐚𝐫𝐭 𝐓𝐫𝐚𝐟𝐟𝐢𝐜 𝐋𝐢𝐠𝐡𝐭",
       description:
         "WePost is a modern, minimalistic social platform for sharing posts, like, follow, and engaging in comments etc.",
-      tags: ["Tanstack-Query", "PostgreSQL", "Shadcn Ui", "Nextjs"],
-      link: "https://we-post-dev.vercel.app",
+      tags: ["FreeRTOS", "Node-RED", "Embedded Programming", "IoT", "Infrared Sensors"],
+      link: "https://www.linkedin.com/in/yassyn-idar/",
+      thumbnail: "/prj1.jpeg",
     },
     {
-      title: "Devzone- A community chat app for devs",
+      title: "𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐞𝐝 𝐌𝐞𝐝𝐢𝐜𝐢𝐧𝐞 𝐃𝐢𝐬𝐩𝐞𝐧𝐬𝐢𝐧𝐠 𝐯𝐢𝐚 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝 𝐑𝐨𝐛𝐨𝐭 (𝐏𝐡𝐚𝐫𝐦𝐚𝐁𝐨𝐭)",
       description:
         "DevZone is the ultimate chat platform for developers to connect, collaborate, and code together. Join the conversation and level up your coding journey.",
-      tags: ["Zustand", "Supabase", "Shadcn Ui", "Nextjs"],
-      link: "https://devzone-ti.vercel.app/",
+      tags: ["Kotlin Coroutines", "Kotlin Android", "Node-RED", "Conception 3D avec CATIA V5", "Real-time Systems", "NodeJs", "MQTT Messaging"],
+      link: "https://www.linkedin.com/in/yassyn-idar/",
+      thumbnail: "/prj2.jpeg",
     },
     {
-      title: "itZmyLink- One Page many Links",
+      title: "𝐑𝐞𝐚𝐥-𝐓𝐢𝐦𝐞 𝐈𝐨𝐓 𝐃𝐚𝐭𝐚 𝐏𝐢𝐩𝐞𝐥𝐢𝐧𝐞 𝐮𝐬𝐢𝐧𝐠 𝐍𝐨𝐝𝐞-𝐑𝐄𝐃, 𝐈𝐧𝐟𝐥𝐮𝐱𝐃𝐁, & 𝐆𝐫𝐚𝐟𝐚𝐧𝐚 (𝐰𝐢𝐭𝐡 𝐃𝐨𝐜𝐤𝐞𝐫)",
       description:
         "itZmyLink is a simple platform where user can create a personalized page to showcase all your social media profiles in one place. ",
-      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/itZmyLink",
+      tags: ["IoT", "Data Engineering", "Node-RED", "Grafana", "InfluxDB", "Docker"],
+      link: "https://www.linkedin.com/in/yassyn-idar/",
+      thumbnail: "/prj3.png"
     },
     {
-      title: "GitEstimate- Github estimate worth generator",
+      title: "𝐒𝐞𝐥𝐟-𝐁𝐚𝐥𝐚𝐧𝐜𝐢𝐧𝐠 𝐑𝐨𝐛𝐨𝐭 (𝐄𝐱𝐩𝐥𝐨𝐫𝐢𝐧𝐠 𝐭𝐡𝐞 𝐏𝐈𝐃 𝐚𝐥𝐠𝐨𝐫𝐢𝐭𝐡𝐦 𝐏𝐎𝐖𝐄𝐑)",
       description:
-        "GitEstimate is a simple fun tool where user can generate their github estimate worth card just by entering their github username. ",
-      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/GitEstimate",
-    },
-    {
-      title: "Mixcn-ui- Reusable components for Nextjs",
-      description:
-        "This is Nextjs app with a Collection of Nextjs Components - (Currently under Devlelopment) ",
-      tags: ["Nextjs", "Shadcnui", "Npx", "Library"],
-      link: "https://mixcn-ui.vercel.app",
-    },
-    {
-      title: "Rupeespot- All deals Product in one place",
-      description:
-        "This is a free tool to check price history charts for millions of products for popular Indian stores such as Amazon and Flipkart. ",
-      tags: ["Nextjs", "Freelancing", "MySQL"],
-      link: "https://rupeespot.com/",
-    },
-    {
-      title: "Formcraft- Build Type-Safe Forms with Zero Effort",
-      description:
-        "Create production-ready forms with Zod validation, React Hook Form, and TypeScript. Design, customize, and deploy in minutes.",
-      tags: ["Nextjs", "Shadcnui", "Zod", "React Hook Form "],
-      link: "https://formcraft-ti.vercel.app/",
-    },
-    {
-      title: "KryptoKapital- Investing in Cryptocurreny",
-      description:
-        "This is a platform for learning about cryptocurrency with many tools and festures. It is very big project. ",
-      tags: ["Nextjs", "Freelancing", "Supabase"],
-      link: "https://pro.kryptokapital.info/",
-    },
-    {
-      title: "FriendZ - A social media Platform",
-      description:
-        "FriendZ is a social media app made with modern tech stacks such as redis, Authjs etc. A user can Create, delete, like, comment Post. ",
-      tags: ["Redis", "Authjs", "Typescript", "Nextjs"],
-      link: "https://github.com/taqui-786/project-friendz",
-    },
-    {
-      title: "ChatApp- Simple instagram clone",
-      description:
-        "ChatApp is similar to instagram, you can create, edit, delete, like,comment, post and  Follow, unfollow users",
-      tags: ["Reactjs", "Javascript"],
-      link: "https://github.com/taqui-786/chatapp-api",
-    },
-    {
-      title: "Devletter - A Newsletter for devs",
-      description:
-        "Devletter ia a newsletter subscribing single page app made with Nextjs and Tailwindcss.",
-      tags: ["Nextjs", "Tailwindcss"],
-      link: "https://github.com/taqui-786/Devletter",
-    },
-    {
-      title: "CrouMaker - A Crousal Maker App",
-      description:
-        "Crousal Maker is a tool with in-built crousals templates edit and download it in any format.",
-      tags: ["Nextjs", "jsPDF", "html2canvas", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/crousal-maker",
+        "itZmyLink is a simple platform where user can create a personalized page to showcase all your social media profiles in one place. ",
+      tags: ["Robotics", "Self-Balancing Robot", "PID Algorithm", "MQTT", "Node-RED", "3D Printing"],
+      link: "https://www.linkedin.com/in/yassyn-idar/",
+      thumbnail: "/prj4.png"
     },
   ],
 

@@ -39,18 +39,18 @@ const Navbar = () => {
       href: '/about',
     },
     {
-      title: 'Skills',
-      icon: (
-        <LightbulbIcon className='h-full w-full ' />
-      ),
-      href: '/skills',
-    },
-    {
       title: 'Education',
       icon: (
         <GraduationCap className='h-full w-full ' />
       ),
       href: '/education',
+    },
+    {
+      title: 'Skills',
+      icon: (
+        <LightbulbIcon className='h-full w-full ' />
+      ),
+      href: '/skills',
     },
     {
       title: 'Projects',
@@ -61,18 +61,11 @@ const Navbar = () => {
     },
    
     {
-      title: 'Contact us',
+      title: 'Contact me',
       icon: (
         <Mail className='h-full w-full ' />
       ),
       href: '/contact',
-    },
-    {
-      title: 'More',
-      icon: (
-        <MoreHorizontal className='h-full w-full ' />
-      ),
-      href: '/more',
     },
   ];
   const [scrolling, setScrolling] = useState(false);

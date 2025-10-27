@@ -16,7 +16,7 @@ const skillPage = () => {
       <div className="flex flex-col gap-3">
         <Heading>My Technical Skills</Heading>
         <FramerWrapper y={0} x={200}>
-        <p className="font-poppins text-1xl w-full text-primary max-sm:text-lg">
+        <p className="font-poppins text-1xl w-full text-primary max-sm:text-lg mb-[20px]">
           {/* First Sentence: The Introduction */}
           I&apos;m an Electrical, Embedded Systems, and Telecommunications Engineering student at ENSEM Casablanca, Morocco.
           
@@ -48,13 +48,13 @@ const skillPage = () => {
           <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
             Embedded Processors & Architectures
           </h1>
-          <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
+          <div className="w-full grid grid-cols-8 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
             <SkillsFooter items={portfolioConfig.skills.frameworks} />
           </div>
         </FramerWrapper>
         <FramerWrapper className="block w-full" y={100} delay={0.34}>
           <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
-            Modeling & Control
+            Embedded Development Tools
           </h1>
           <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
             <SkillsFooter items={portfolioConfig.skills.tools} />
@@ -62,10 +62,10 @@ const skillPage = () => {
         </FramerWrapper>
         <FramerWrapper className="block w-full" y={100} delay={0.34}>
           <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
-            Hardware & Protocols
+            Network & Protocols
           </h1>
-          <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
-            <SkillsFooter items={portfolioConfig.skills.tools} />
+          <div className="w-full grid grid-cols-10 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
+            <SkillsFooter items={portfolioConfig.skills.protocols} />
           </div>
         </FramerWrapper>
       </div>
