@@ -14,6 +14,7 @@ interface ProjectCardProps {
     description: string;
     tags: string[];
     link: string;
+    thumbnail: string;
   };
   num: number;
 }
