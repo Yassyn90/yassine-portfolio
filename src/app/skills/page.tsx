@@ -38,7 +38,7 @@ const skillPage = () => {
         </FramerWrapper>
         <FramerWrapper y={100} delay={0.3} className="block w-full">
           <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
-            Programming & Low-Level
+            Programming
           </h1>
           <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
             <SkillsFooter items={portfolioConfig.skills.programmingLanguages} />

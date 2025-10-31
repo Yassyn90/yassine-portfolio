@@ -14,8 +14,8 @@ function DownLoadResumeBtn() {
 
   // File paths are relative to the /public folder
   const files = [
-    { name: 'CV (Version Française)', href: '/Cv_Idar_Yassyn_FR.pdf' },
-    { name: 'CV (English Version)', href: '/Cv_Idar_Yassyn_EN.pdf' },
+    { name: 'CV (Version Française)', href: '/CV___Version_FR_photo.pdf' },
+    { name: 'CV (English Version)', href: '/CV___Version_A2___EN_Photo.pdf' },
   ];
 
   return (

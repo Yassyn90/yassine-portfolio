@@ -1,7 +1,7 @@
 export const portfolioConfig = {
   // Basic Information
   name: "IDAR YASSYN",
-  title: "Futur Embedded Systems and Telecommunications Engineer, Building the Future of IoT",
+  title: "Future Embedded Systems and Telecommunications Engineer, Building the World of IoT",
   description: "Passionate embedded systems and telecommunications engineering student.",
   location: "Ensem, Casablanca",
 
